@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jujutsu Kaisen Characters</title>
+    <style>
+        /* Add your CSS styles for the website here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F2ECF8;
+            margin: 0;
+            padding: 0;
+        }
+       h2{
+        font-family: Georgia,Serif	;
+       }
+
+
+        header {
+            background-color: #27254C;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .character {
+            background-color: #fff;
+            border: 1px solid #f9f7f7;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .character
+        h2{color: #331D2C;}
+
+        .character img {
+            max-width:50%;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+      
+        
+         /* Navigation Menu Styles */
+         .navigation {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            background-color: #333;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            background-color: #435B66;
+        }
+
+        .navigation a {
+            color: #F6F4EB;
+            text-decoration: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        /* Highlight the active link */
+        .active {
+            background-color: #555;
+        }
+      
+       
+        h2{
+            text-align: center; /* Center-align the headings */
+           
+           
+        }
+      
+
+        /* Media Query for Smaller Screens */
+        @media screen and (max-width: 350px) {
+            .navigation {
+                justify-content: center; /* Center-align navigation items */
+            }
+
+            .navigation a {
+                padding: 10px; /* Reduce padding for smaller screens */
+            }
+                
+        }
+      
+        .character {
+            background-color: #d6d3d3;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column; /* Stack content vertically in each character box */
+            align-items: center; /* Center-align content horizontally and vertically */
+            max-width: auto ; /* Fixed maximum width for the character box */
+        }
+
+        .character img {
+            max-width: 75%; /* Allow image to take up full width of the box */
+            height: auto;
+            margin-top: 20px;
+        }
+
+        .character .para {
+            text-align: left; /* Align text in .para to the left */
+            color:    #0c0c0c }
+    
+     
+
+
+.container #tokyo-jujutsu-high,
+.container #kyoto-jujutsu-high,
+.container #jujutsu-sorcerers,
+.container #cursed-spirits,
+.container #curse-users,
+.container #non-sorcerers {
+    text-align: center;
+    
+}
+
+/* Media Query for Screens Above 786px */
+@media screen and (min-width: 787px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+  /* Define a flex container for the characters */
+  .characters-container {
+            display: flex;
+            flex-wrap: wrap; /* Allow items to wrap to the next row */
+            justify-content: space-between; /* Distribute space between items */
+        }
+
+        /* Define the character boxes */
+        .character {
+            width: 48%; /* Set the width of each box */
+            margin-bottom: 20px; /* Add some margin between boxes */
+            box-sizing: border-box; /* Include padding and borders in the width */
+            border: 1px solid #ddd; /* Add a border for visual separation */
+            padding: 10px; /* Add padding inside each box */
+            text-align: center; /* Center text within each box */
+        }
+
+        /* Media query for screens below 786 pixels */
+        @media (max-width: 786px) {
+            /* Remove Flexbox styles and make the boxes stack vertically */
+            .characters-container {
+                display: block; /* Display as block below 786px */
+            }
+
+            /* Adjust the width and margin of the character boxes for smaller screens */
+            .character {
+                width: 100%; /* 100% width for single column layout */
+                margin-bottom: 10px; /* Reduce margin for spacing */
+            }
+
+        }
+
+        .para{
+     
+     font-family: 'Source Sans Pro Topnav', sans-serif;
+   }
+
+    
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jujutsu Kaisen Characters</h1>
+    </header>
+     <!-- Navigation Menu -->
+     <div class="navigation">
+        <a href="#tokyo-jujutsu-high" class="nav-link">Tokyo Jujutsu High</a>
+        <a href="#kyoto-jujutsu-high" class="nav-link">Kyoto Jujutsu High</a>
+        <a href="#jujutsu-sorcerers" class="nav-link">Jujutsu Sorcerers</a>
+        <a href="#cursed-spirits" class="nav-link">Cursed Spirits</a>
+        <a href="#curse-users" class="nav-link">Curse Users</a>
+        <a href="#non-sorcerers" class="nav-link">Non-Sorcerers</a>
+    </div>
+    <div class="container">
+   
+   
+       
+        <div class="characters-container">
+        <div class="character">
+            <h2 id="tokyo-jujutsu-high">Satoru Gojo</h2>
+            <p>Role: mentor of the cursed teenager Yuta Okkotsu at Tokyo Prefectural Jujutsu High School.</p>
+            <p>Satoru Gojo (五ご条じょう悟さとる Gojō Satoru?) is one of the main protagonists of the Jujutsu Kaisen series. He is a special grade jujutsu sorcerer and widely recognized as the strongest in the world. Satoru is the pride of the Gojo Family, the first person to inherit both the Limitless and the Six Eyes in four hundred years. He works as a teacher at the Tokyo Jujutsu High and uses his influence to protect and train strong young allies..</p>
+            <img src="Satoru Gojo.webp" alt="Satoru Gojo">
+
+           
+        </div>
+        <!-- Character 4 -->
+        <div class="character">
+            <h2>Yuji Itadori</h2>
+            <p>Role: protagonist of Jujutsu Kaisen, Yuji Itadori is a headstrong lead character that certainly drives the plot forward with his nerves of steel. His bold physical strenght is balanced out with his lightheatred and compassionate personality..</p>
+            <p class="para">Yuji Itadori (虎いた杖どり悠ゆう仁じ Itadori Yūji?) is the main protagonist of the Jujutsu Kaisen series. He is the son of Jin Itadori and Kaori Itadori. Yuji is the grandson of Wasuke Itadori who was living a normal life until he encountered Megumi and ate one of Sukuna's fingers. After becoming Sukuna's vessel, Yuji began attending Tokyo Jujutsu High alongside Megumi and Nobara as first-year students.</p>
+            <img src="Yuji_Itadori_29.webp" alt="Yuji Itadori">
+      
+        </div> 
+
+        <!-- Character 2 -->
+        <div class="character">
+            <h2>Masamichi Yaga</h2>
+            <p>Role:Principal of Tokyo Jujutsu High and a grade 1 jujutsu sorcerer.</p>
+            <p class="para">Masamichi Yaga (夜や蛾が正まさ道みち Yaga Masamichi?) is a character in Jujutsu Kaisen. He was the Principal of Tokyo Jujutsu High and a grade 1 jujutsu sorcerer. He was a cursed corpse user as well as Panda's creator and father. Prior to becoming Principal sometime after 2006, Masamichi was a second-year teacher to Satoru Gojo, Suguru Geto, and Shoko Ieiri..</p>
+            <img src="Masamichi Yaga.webp" alt="Masamichi Yaga">
+         
+        </div>
+
+        <!-- Character 3 -->
+        <div class="character">
+            <h2>Kiyotaka Ijichi</h2>
+            <p>Role: assistant director of Tokyo Jujutsu High</p>
+            <p class="para">Kiyotaka Ijichi (伊い地じ知ち潔きよ高たか Ijichi Kiyotaka?) is a character in the Jujutsu Kaisen series. He is the assistant director at Tokyo Jujutsu High..</p>
+            <img src="Kiyotaka_Ijichi_29.webp" alt="Kiyotaka Ijichi">
+  
+        </div>
+
+        
+
+        <!-- Character 5 -->
+        <div class="character">
+            <h2>Megumi Fushiguro</h2>
+            <p>Role:deuteragonist of the popular 2018 dark fantasy anime and manga series, Jujutsu Kaisen..</p>
+            <p class="para">Megumi Fushiguro (伏ふし黒ぐろ恵めぐみ Fushiguro Megumi?) is the deuteragonist of the Jujutsu Kaisen series. He is a grade 2 jujutsu sorcerer and first-year student at Tokyo Jujutsu High alongside Yuji Itadori and Nobara Kugisaki. Megumi is the step-brother of Tsumiki Fushiguro and as the son of Toji Fushiguro, Megumi is also a descendant of the Zenin Family. Megumi was born outside the clan as Toji's trump card and was eventually found by Satoru Gojo, who mentored him and enrolled him at Jujutsu High as his student.</p>
+            <img src="Megumi_Fushiguro_29.webp" alt="Megumi Fushiguro">
+          
+        </div>
+
+        <!-- Character 6 -->
+        <div class="character">
+            <h2>Nobara Kugisaki</h2>
+            <p>Role:deuteragonist of the popular 2018 dark fantasy anime and manga series, Jujutsu Kaisen.</p>
+            <p class="para">Nobara Kugisaki (釘くぎ崎さき野の薔ば薇ら Kugisaki Nobara?) is the tritagonist of the Jujutsu Kaisen series. She is a first-year student and grade 3 jujutsu sorcerer at Tokyo Jujutsu High studying under Satoru Gojo alongside Yuji and Megumi.</p>
+            <img src="Nobara_Kugisaki_29.webp" alt="Nobara Kugisaki">
+          
+        </div>
+
+        <!-- Character 7 -->
+        <div class="character">
+            <h2>Maki Zenin</h2>
+            <p>Role: major supporting character in Jujutsu Kaisen and one of the main protagonists of its prequel, Jujutsu Kaisen 0: Jujutsu High.</p>
+            <p class="para">Maki Zenin (禪ぜん院いん真ま希き Zen'in Maki?) is a major supporting character in Jujutsu Kaisen and one of the main protagonists of its prequel, Jujutsu Kaisen 0: Jujutsu High. She is currently a second-year at Tokyo Jujutsu High. Daughter of Ogi Zenin and the elder twin sister of Mai Zenin, Maki was born in the Zenin Family.
+
+                Born a non-sorcerer in one of the Big Three Sorcerer Families, Maki was constantly mistreated and felt compelled to expel herself from the Zenin clan. She aspires to be a great jujutsu sorcerer to spite her family, working closely with her friends Panda and Toge Inumaki, while also serving as a role model to the first-year students.</p>
+            <img src="Mai_Zen.webp" alt="Maki Zenin">
+        
+        </div>
+
+        <!-- Character 8 -->
+        <div class="character">
+            <h2>Toge Inumaki</h2>
+            <p>Role: supporting character in the popular 2018 dark fantasy anime and manga series, Jujutsu Kaisen and a major character in its prequel, Jujutsu Kaisen: 0. He is the descendant of the Inumaki family born with a powerful cursed technique: Cursed Speech..</p>
+            <p class="para">Toge Inumaki (狗いぬ巻まき棘とげ Inumaki Toge?) is a major supporting character in Jujutsu Kaisen and one of the main protagonists of its prequel, Jujutsu Kaisen 0: Jujutsu High. He is a descendant of the Inumaki clan and has inherited the clan's cursed speech, which he's developed his own unique speech pattern for in order to avoid cursing others. Toge is currently a semi-grade 1 jujutsu sorcerer and second-year at Tokyo Jujutsu High alongside his classmates Yuta, Maki, and Panda..</p>
+            <img src="Toge_Inumaki_29.webp" alt="Toge Inumaki">
+          
+        </div>
+
+        <!-- Character 9 -->
+        <div class="character">
+            <h2>Panda</h2>
+            <p>Role:  a fully independent and sentient Cursed Corpse.</p>
+            <p class="para">Panda (パンダ Panda?) is a major supporting character in Jujutsu Kaisen and one of the main protagonists of its prequel, Jujutsu Kaisen 0: Jujutsu High. Panda is not an actual panda, he's an Abrupt Mutated Cursed Corpse created by Masamichi Yaga. He attends Jujutsu High as a second-year student along with Maki, Toge, and Yuta.</p>
+            <img src="Panda_29.webp" alt="Panda">
+           
+        </div>
+
+        <!-- Character 10 -->
+        <div class="character">
+            <h2>Yuta Okkotsu</h2>
+            <p>Role:  the protagonist of Tokyo Metropolitan Curse Technical School.</p>
+            <p class="para">Yuta Okkotsu (乙おっ骨こつ憂ゆう太た Okkotsu Yūta?) is a major supporting character in the Jujutsu Kaisen series and the main protagonist of its prequel series, Jujutsu Kaisen 0: Jujutsu High. He was initially a special grade cursed human haunted by his late childhood friend, Rika Orimoto. Satoru Gojo mentored Yuta and enrolled him at Tokyo Jujutsu High.
+
+                Yuta is currently a second-year student at Jujutsu High where he works as a jujutsu sorcerer. He was training overseas in Africa with Miguel until after the Shibuya Incident when he returned to Tokyo</p>
+            <img src="Yuta_Okkotsu_and_Cursed_Rika.webp" alt="Yuta Okkotsu">
+          
+        </div>
+        <!-- Character 10 -->
+        <div class="character">
+            <h2>Kinji Hakari</h2>
+            <p>Role:  third-year student at Tokyo Jujutsu High who is currently suspended for clashing with authority. .</p>
+            <p class="para"> Kinji Hakari (秤はかり金きん次じ Hakari Kinji?) is a character in the Jujutsu Kaisen series. He is a third-year student at Tokyo Jujutsu High who is currently suspended for clashing with authority. While away from the school, Kinji is running the Gachinko Fight Club, a venue for hand-to-hand combat between sorcerers for money.</p>
+            <img src="Kinji_Hakari_29.webp" alt="Kinji Hakari">
+          
+        </div>
+         <!-- Character 11 -->
+        <div class="character">
+            <h2>Kirara Hoshi</h2>
+            <p>Role:third-year student at Tokyo Jujutsu High who is currently suspended for clashing with authority. .</p>
+            <p class="para"> Kirara Hoshi (星ほし綺羅羅きらら Hoshi Kirara?) is a character in the Jujutsu Kaisen series. They are a third-year student at Tokyo Jujutsu High but are currently away from school following Kinji Hakari's suspension. Kirara helps him run the Gachinko Fight Club, which hosts hand-to-hand combat between sorcerers for money. </p>
+            <img src="Kirara_Hoshi.webp" alt="Kirara Hoshi">
+  
+         </div>
+        </div>
+    
+
+       
+         <div class="characters-container">
+         <div class="character">
+            <h2 id="kyoto-jujutsu-high">Yoshinobu Gakuganji</h2>
+            <p>Role: principal at Kyoto Jujutsu High and a member of the jujutsu higher-ups.  .</p>
+            <p class="para">Yoshinobu Gakuganji (楽がく巌がん寺じ嘉よし伸のぶ Gakuganji Yoshinobu?) is a character in the Jujutsu Kaisen series. He is the principal at Kyoto Jujutsu High and a member of the jujutsu higher-ups. </p>
+            <img src="Yoshinobu_Gakuganji_29.webp" alt="Yoshinobu Gakuganji">
+          
+        </div>
+        <div class="character">
+            <h2>Mai Zenin</h2>
+            <p>Role:skilled shooter from the Zenin clan .</p>
+            <p class="para"> Mai Zenin (禪ぜん院いん真ま依い Zen'in Mai?) is a character in the Jujutsu Kaisen series. She was a second-year at student at Kyoto Jujutsu High, member of the Zenin clan, and the younger twin sister of Maki Zenin.</p>
+            <img src="Mai_Zen.webp" alt="Mai Zenin">
+          
+        </div>
+        <div class="character">
+            <h2>Kasumi Miwa</h2>
+            <p>Role:  support character .</p>
+            <p class="para">Kasumi Miwa (三み輪わ霞かすみ Miwa Kasumi?) is a character in the Jujutsu Kaisen series. She is a second-year at Kyoto Jujutsu High. </p>
+            <img src="Kasumi_Miwa_29.webp" alt="Kasumi Miwa">
+          
+        </div>
+        <div class="character">
+            <h2>Noritoshi Kamo</h2>
+            <p>Role: The current Noritoshi Kamo, a third-year student at Jujutsu High, is a likable character who seeks to bridge the gap between the Big Three Families..</p>
+            <p class="para"> Noritoshi Kamo (加か茂も憲のり紀とし Kamo Noritōshi?) is a character in Jujutsu Kaisen. He is a third-year at Kyoto Jujutsu High and former heir to the Kamo clan.</p>
+            <img src="Noritoshi_Kamo_29.webp" alt="Noritoshi Kamo">
+          
+        </div>
+        <div class="character">
+            <h2>Aoi Todo</h2>
+            <p>Role: The current Noritoshi Kamo, a third-year student at Jujutsu High, is a likable character who seeks to bridge the gap between the Big Three Families. His strongest power is Blood Manipulation, which allows him to control and manipulate blood for combat..</p>
+            <p class="para">Aoi Todo (東とう堂どう葵あおい Tōdō Aoi?) is a supporting character in the Jujutsu Kaisen series. He is a third-year student at Kyoto Jujutsu High School and a grade 1 jujutsu sorcerer. He was mentored by Yuki Tsukumo in his youth and considers Yuji Itadori his best friend. </p>
+            <img src="Aoi_Todo_29.webp" alt="Aoi Todo">
+          
+        </div>
+        <div class="character">
+            <h2>Momo Nishimiya</h2>
+            <p>Role: She is a third year student at the Kyoto Jujutsu High School and is considered a semi-grade 2 jujutsu sorcerer.</p>
+            <p class="para">Momo Nishimiya (西にし宮みや桃もも Nishimiya Momo?) is a character in the Jujutsu Kaisen series. She is a third-year student at Kyoto Jujutsu High and a semi-grade 2 jujutsu sorcerer. </p>
+            <img src="Momo_Nishimiya_29.webp" alt="Momo Nishimiya">
+          
+        </div>
+        </div>
+        
+        <div class="characters-container">
+        <div class="character">
+            <h2 id="jujutsu-sorcerers">Sukuna</h2>
+            <p>Role:legendary sorcerer during the Golden age of jujutsu, Sukuna was feared by most of the powerful sorcerers and was able to defeat and kill thousands of jujutsu sorcerers who dared cross his path. This left many authority figures afraid of him while also earning himself the title - strongest sorcerer in history .</p>
+            <p class="para">Ryomen Sukuna (両りょう面めん宿すく儺な Ryōmen Sukuna?), more often referred to as simply Sukuna (宿すく儺な Sukuna?), is the strongest jujutsu sorcerer from a thousand years ago. Regarded as the undisputed King of Curses (呪のろいの王おう Noroi no Ō?), Sukuna is one of the primary antagonists of the Jujutsu Kaisen series.
+
+                According to legend, Sukuna was an Imaginary Demon (仮か想そうの鬼き神じん Kasō no Kijin?) during the Heian Era but in truth he was a sorcerer also known as the Disgraced One (堕だ天てん Daten?). Jujutsu sorcerers of the Golden Age of Jujutsu gave their all against him but ultimately fell one after another. Sukuna existed throughout the ages by transforming into a cursed object after death, a state where he split his power into twenty indestructible fingers.
+                
+                Sukuna was incarnated in June 2018 when Yuji Itadori consumed one of his fingers. Sukuna was trapped inside Yuji's body and was rarely in control until he managed to transfer his soul into the body of Megumi Fushiguro.
+                
+                 </p>
+            <img src="Sukuna_29.webp" alt="Sukuna">
+          
+        </div>
+        <div class="character">
+            <h2>Kento Nanami</h2>
+            <p>Role:He was a grade 1 sorcerer and the mentor of Yuji Itadori. He graduated from Jujutsu High before started working as a salaryman and returned four years after, to resume his career as a jujutsu sorcerer and also became the mentor of Yuji Itadori. .</p>
+            <p class="para"> Kento Nanami (七なな海み建けん人と Nanami Kento?) is a supporting character in Jujutsu Kaisen. He was a former student of Tokyo Jujutsu High where he was an underclassman of Satoru Gojo and Suguru Geto. Nanami initially left Jujutsu High after graduating to become a salaryman, but returned four years later to continue working as a jujutsu sorcerer.</p>
+            <img src="Kento_Nanami_29.webp" alt="Kento Nanami">
+          
+        </div>
+        <div class="character">
+            <h2>Takuma Ino</h2>
+            <p>Role: alumnus of Jujutsu School and the protege of Nanami Kento. He is a Grade 2 sorcerer and currently waiting for his promotion to Grade 1..</p>
+            <p class="para">Takuma Ino (猪い野の琢たく真ま Ino Takuma?) is a supporting character in the Jujutsu Kaisen series. Ino is a grade 2 jujutsu sorcerer and a close associate of Kento Nanami who operates out of Tokyo Jujutsu High. </p>
+            <img src="Takuma_Ino_29.webp" alt="Takuma Ino">
+          
+        </div>
+        <div class="character">
+            <h2>Mei Mei</h2>
+            <p>Role:  She is a grade 1 jujutsu sorcerer who works independently and only in exchange for money..</p>
+            <p class="para"> Mei Mei (冥めい冥めい Mei Mei?) is a supporting character in the Jujutsu Kaisen series. She is a grade 1 jujutsu sorcerer who works independently and only in exchange for money. She is also the older sister of Ui Ui and was a senpai of Satoru Gojo and Suguru Geto during their time at Jujutsu High</p>
+            <img src="Mei_Mei_29.webp" alt="Mei Mei">
+          
+        </div>
+        <div class="character">
+            <h2>Yuki Tsukumo</h2>
+            <p>Role: Yuki possesses elite combat instincts and is highly talented in jujutsu, capable of using her innate technique, barrier techniques, and domain expansion..</p>
+            <p class="para"> Yuki Tsukumo (九つ十く九も 由ゆ基き Tsukumo Yuki?) is a character in the Jujutsu Kaisen series. She is one of only four special grade jujutsu sorcerers.[1] Yuki is not aligned with Jujutsu High, so her reputation paints her as the only special grade sorcerer who doesn't take on missions. In truth, Yuki simply does not agree with the higher-ups' methods and works toward a curse-free world in her own way.</p>
+            <img src="Yuki_Tsukumo_29.webp" alt="Yuki Tsukumo">
+          
+        </div>
+        <div class="character">
+            <h2>Naobito Zenin</h2>
+            <p>Role: As the head of the Zenin clan and a special grade 1 sorcerer up until his death, Naobito was a highly regarded fighter throughout the jujutsu world..</p>
+            <p class="para"> Naobito Zenin (禪ぜん院いん直なお毘び人と Zen'in Naobito?) is a supporting character in the Jujutsu Kaisen series. He was a special grade 1 jujutsu sorcerer, the 26th head of the Zenin Family, and the father of Naoya Zenin.</p>
+            <img src="Naobito_Zenin_(Anime_2).webp" alt="Naobito Zenin">
+          
+        </div>
+        <div class="character">
+            <h2>Hajime Kashimo</h2>
+            <p>Role: one of the many sorcerers who made a deal with Kenjaku in ancient times to be reincarnated and participate in the Culling Games.</p>
+            <p class="para" > Hajime Kashimo (鹿紫雲かしも一はじめ Kashimo Hajime?) is a character in the Jujutsu Kaisen series. He is a jujutsu sorcerer from 400 years ago currently inhabiting the body of someone Kenjaku prepared as a vessel. Hajime is currently serving as one of the players participating in the Culling Game in search of fighting Sukuna.</p>
+            <img src="Hajime_Kashimo_29.webp" alt="Hajime Kashimo">
+        </div>
+        </div>
+
+
+       
+        <div class="characters-container">
+        <div class="character">
+        <h2 id="cursed-spirits">Mahito</h2>
+        <p>Role:Mahito is one of the main antagonists of the Jujutsu Kaisen series along with “Suguru Geto.” An unregistered special grade cursed spirit. .</p>
+        <p class="para">Mahito (真ま人ひと Mahito?) is one of the primary antagonists of the Jujutsu Kaisen series. He is an unregistered special grade cursed spirit allied with Pseudo-Geto. He is also the leader of his own group, consisting of Jogo, Hanami, and Dagon. His group's ultimate goal is the eradication of humanity and ultimately replacing the population with cursed spirits. </p>
+        <img src="Mahito_29.webp" alt="Mahito">
+      
+    </div>
+    <div class="character">
+        <h2>Jogo</h2>
+        <p>Role: an unregistered special grade cursed spirit aligned with Mahito, Hanami, and Dagon..</p>
+        <p class="para">Jogo (漏じょう瑚ご Jōgo?) is a major antagonist in the Jujutsu Kaisen series. He was an unregistered special grade cursed spirit aligned with Mahito, Hanami, and Dagon. Jogo believed curses were the true humans and desired a world where his kind dominated the earth. </p>
+        <img src="Jogo_29.webp" alt="Jogo">
+      
+    </div>
+    <div class="character">
+        <h2>Hanami</h2>
+        <p>Role: an antagonist in the Jujutsu Kaisen series. He was an unregistered special grade cursed spirit aligned with Jogo, Dagon, and Mahito..</p>
+        <p class="para">Hanami (花はな御み Hanami?) is an antagonist in the Jujutsu Kaisen series. He was an unregistered special grade cursed spirit aligned with Jogo, Dagon, and Mahito. Hanami was born from the fear of land-based natural disasters and he desired to rid the earth of humanity because of their mistreatment of nature. </p>
+        <img src="Hanami_29.webp" alt="Hanami">
+      
+    </div>
+    <div class="character">
+        <h2>Dagon</h2>
+        <p>Role: Rainbow Dragon is one of the strongest special grade Curses that have appeared in the Jujutsu Kaisen manga..</p>
+        <p class="para"> Dagon (陀だ艮ごん Dagon?) is an antagonist in the Jujutsu Kaisen series. He was an unregistered special grade cursed spirit aligned with Mahito, Jogo, and Hanami. Dagon was born from the fear of water-based natural disasters and existed as a cursed womb until he evolved during the Shibuya Incident.</p>
+        <img src="Dagon_29.webp" alt="Dagon">
+      
+    </div>
+    
+    <div class="character">
+        <h2>Finger Bearer</h2>
+        <p>Role: act like regular curses and tend to linger at their point of origin and attacking any individual that enters their domain.</p>
+        <p class="para">Finger Bearers (指ゆびの寄き主しゅ Yubi no Kishu?)[1] are a type of special grade cursed spirit that emerge from the cursed wombs spawned from when a cursed spirit eats and swallows one of Sukuna's fingers. </p>
+        <img src="Finger_Bearer_full_body_29.webp" alt="Finger Bearer">
+      
+    </div>
+    </div>
+    
+    
+    <div class="characters-container">
+    
+    <div class="character">
+        <h2  id="curse-users">Uraume</h2>
+        <p>Role:  a powerful and mysterious curse user who served Sukuna, the King of Curses, a thousand years ago..</p>
+        <p class="para"> Uraume (裏梅うらうめ Uraume?) is a recurring antagonist in the Jujutsu Kaisen series. They are a curse user from a thousand years ago who is a direct subordinate to Sukuna. They aligned themselves with Kenjaku to seal Satoru Gojo and revive Sukuna.</p>
+        <img src="Uraume_First_Appearance_29.webp" alt="Uraume">
+      
+    </div>
+    <div class="character">
+        <h2>Suguru Geto</h2>
+        <p>Role:a Special Grade Jujutsu Sorcerer, one of Masamichi Yaga's students, and a former classmate of Gojo and Shoko Ieiri. .</p>
+        <p class="para">Suguru Geto (夏げ油とう傑すぐる Getō Suguru?) is an antagonist in both the Jujutsu Kaisen series and its prequel Jujutsu Kaisen 0: Jujutsu High. He was originally a student of Masamichi Yaga's alongside Satoru Gojo and Shoko Ieiri at Tokyo Jujutsu High. His experiences as a jujutsu sorcerer bred a deep hatred for non-sorcerers, leading to an incident where Suguru massacred over a hundred civilians in a single night. He was expelled from Jujutsu High and came to be known as the worst of all curse users </p>
+        <img src="Suguru_Geto_29.webp" alt="Suguru Geto">
+      
+    </div>
+    <div class="character">
+        <h2>Mimiko Hasaba</h2>
+        <p>Role:  minor antagonists of the anime and manga series Jujutsu Kaisen first appearing in its prequel manga Jujutsu Kaisen 0 and its 2023 movie adaptation of the same name.</p>
+        <p class="para">Mimiko Hasaba (枷はさ場ば美み々み子こ Hasaba Mimiko?) is an antagonist in the Jujutsu Kaisen series and its prequel Jujutsu Kaisen 0: Jujutsu High. She was the twin sister of Nanako Hasaba and they were both allies of Suguru Geto. </p>
+        <img src="Mimiko_Hasaba_29.webp" alt="Mimiko Hasaba">
+      
+    </div>
+    <div class="character">
+        <h2>Junpei Yoshino</h2>
+        <p>Role: he turned into a curse user after meeting Mahito.</p>
+        <p class="para">Junpei Yoshino (吉よし野の順じゅん平ぺい Yoshino Junpei?) is a supporting character in the Vs. Mahito Arc of the Jujutsu Kaisen series. He was a high school student in Satozakura High School who befriended Yuji Itadori, but turned into a curse user after meeting Mahito. </p>
+        <img src="Junpei_Yoshino_29.webp" alt="Junpei Yoshino">
+      
+    </div>
+   </div>
+   
+    <div class="characters-container">
+   
+    <div class="character">
+        <h2 id="non-sorcerers">Setsuko Sasaki</h2>
+        <p>Role:  second-year student at Sugisawa Third Municipal High School and was a member of the school's Occult Research Club alongside her friends Yuji Itadori and Takeshi Iguchi..</p>
+        <p class="para"> Setsuko Sasaki (佐さ々さ木きせつこ Sasaki Setsuko?) is a minor character in the Jujutsu Kaisen series. She is second-year student at Sugisawa Third Municipal High School and was a member of the school's Occult Research Club alongside her friends Yuji Itadori and Takeshi Iguchi.</p>
+        <img src="Sasaki_29.webp" alt="Setsuko Sasaki">
+    </div>
+    <div class="character">
+        <h2>Wasuke Itadori</h2>
+        <p>Role: Wasuke is shown to be a selfless, caring man who taught Yuji to help others..</p>
+        <p class="para">Wasuke Itadori (虎いた杖どり倭わ助すけ Itadori Wasuke?) is a character in Jujutsu Kaisen. He is Yuji Itadori's grandfather. </p>
+        <img src="Wasuke_Itadori_Anime.webp" alt="Wasuke Itadori">
+      
+    </div>
+    <div class="character">
+        <h2>Rika Orimoto</h2>
+        <p>Role: cursed spirit that remains with Yuta Okkotsu even after Rika Orimoto's soul was unbound from it. .</p>
+        <p class="para">Rika Orimoto (祈おり本もと里り香か Orimoto Rika?) is a character in the Jujutsu Kaisen 0: Jujutsu High prequel series. She was the childhood friend of Yuta Okkotsu who tragically died when she was hit by a car. Her spirit was cursed, transforming her into a powerful special grade vengeful cursed spirit worthy of the moniker "Queen of Curses" (呪のろいの女じょ王おう Noroi no Joō?). Rika spent years haunting Yuta as a curse until he attended Tokyo Jujutsu High where he learned to unravel the curse on Rika's spirit, finally allowing her to pass on to the afterlife. </p>
+        <img src="Rika_Orimoto_29.webp" alt="Rika Orimoto">
+      
+    </div>
+   </div>
+    
+    
+    
+    
+    
+          
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+
+    </div>
+    <footer>
+        &copy; 2023 Jujutsu Kaisen Characters Showcase
+    </footer>
+
+    <!-- Enquire Box -->
+    <div class="enquire-box">
+        <h2>Enquire</h2>
+        <form action="mailto:sindhukandha9@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="suggestion">Suggestion:</label><br>
+            <textarea id="suggestion" name="suggestion" rows="4" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+
+
+    <style>
+        /* Add your CSS styles for the enquire box here */
+        .enquire-box {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .enquire-box h2 {
+            color: #333;
+        }
+
+        .enquire-box form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .enquire-box label,
+        .enquire-box input,
+        .enquire-box textarea {
+            margin: 5px 0;
+        }
+
+        .enquire-box input[type="text"],
+        .enquire-box input[type="email"],
+        .enquire-box textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .enquire-box input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+      <!-- JavaScript for Navigation -->
+      <script>
+        // JavaScript to handle navigation menu highlighting
+        const navLinks = document.querySelectorAll('.nav-link');
+        
+        navLinks.forEach(link => {
+            link.addEventListener('click', function () {
+                navLinks.forEach(navLink => {
+                    navLink.classList.remove('active');
+                });
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
