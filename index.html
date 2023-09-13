@@ -208,7 +208,7 @@
    
        
         <div class="characters-container">
-        <div class="character">
+        <div class="character"  id="character-1">
             <h2 id="tokyo-jujutsu-high">Satoru Gojo</h2>
             <p>Role: mentor of the cursed teenager Yuta Okkotsu at Tokyo Prefectural Jujutsu High School.</p>
             <p>Satoru Gojo (五ご条じょう悟さとる Gojō Satoru?) is one of the main protagonists of the Jujutsu Kaisen series. He is a special grade jujutsu sorcerer and widely recognized as the strongest in the world. Satoru is the pride of the Gojo Family, the first person to inherit both the Limitless and the Six Eyes in four hundred years. He works as a teacher at the Tokyo Jujutsu High and uses his influence to protect and train strong young allies..</p>
@@ -522,7 +522,20 @@
     </div>
    </div>
     
-    
+   <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Get all character elements
+        const characters = document.querySelectorAll(".character");
+
+        // Hide all character elements except the first one
+        characters.forEach((character, index) => {
+            if (index !== 0) {
+                character.style.display = "none";
+            }
+        });
+    });
+</script>
+
     
     
     
